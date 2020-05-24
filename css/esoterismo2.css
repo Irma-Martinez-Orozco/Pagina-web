@@ -1,0 +1,226 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 0;
+}
+body{
+    color: white;
+    font-family: tahoma;
+    font-size: 18px;
+    text-align: center;
+}
+nav{
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+nav li{
+    display: inline-block;
+    padding: 24px 10px;
+}
+nav li a{
+    color: rgb(5, 90, 86);
+    text-transform: uppercase;
+    font-size: 12;
+    font-weight: bold;
+    font-family: century;
+}
+
+
+.art1{
+    background:rgb(54, 58, 57);
+    height: 1100px;
+}
+
+.art2{
+    background:rgb(54, 58, 57);
+    width: 100%;
+    height: 1000px;
+}
+
+.art3{
+    background:rgb(54, 58, 57);
+    width: 100%;
+    height: 1500px;
+}
+.art4{
+    background:rgb(54, 58, 57);
+        width: 100%;
+    height: 1410px;
+}
+.texto{
+    font-family: 'Kaushan Script';
+    color: black;
+    font-size: 100px;
+    text-align:center;
+}
+
+.dentro{
+    font-size: 20px;
+    color: white;
+    font-family: 'Raleway';
+    text-align:justify;
+    padding: 10px 60px 10px 60px;
+
+}
+h2{
+    font-family: 'DM Serif Display';
+    font-size: 60px;
+    color: rgb(245, 18, 113);
+    padding: 30px 50px 20px 70px;
+}
+
+.imagen{
+      width: 45%;
+      height: 250px;
+      margin: 10px;
+      border: 3px solid black;
+}
+/**/
+
+.contenedor-anuncio{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    color: rgb(220, 233, 37);
+    font-family: century;
+    font-size: 15px;
+    padding: 30px 30px 30px 50px;
+
+}
+
+.anuncio{
+    flex:0 0 calc(33.3% - 1rem);
+    border:1px solid #7b15ce;
+    background-color: rgba(124, 14, 47, 0.192);
+    margin-bottom: 2rem;
+    
+}
+
+.letra{
+    color: rgb(13, 45, 230);
+    font-size: 35px;
+}
+p{
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: rgb(231, 146, 18);
+    padding: 10px 10px 10px 10px;
+}
+.dentro2{
+    font-size: 20px;
+    color:white;
+    font-family: 'Raleway';
+    padding: 10px 60px 10px 60px;
+}
+.dentrom{
+    font-size: 20px;
+    color: white;
+    font-family: 'Raleway';
+    padding: 10px 60px 10px 60px;
+}
+
+/*otra parte*/
+div#body{
+    
+	margin: auto;
+    width:700px;
+	min-height:40px;
+	background-color: rgb(19, 13, 13);
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+div.subapartado{
+	width:700px;
+	min-height:40px;
+	background-color: rgb(255, 255, 255);
+	-webkit-transiton: height 0.2s;
+}
+
+div.titulo{
+    width:700px;
+	height:40px;
+	background-color: #0f0f0f;
+	overflow: hidden;
+	border-bottom: 1px solid #0e0d0d;
+}
+
+p.titulo{
+	margin:1px;
+    color: rgb(247, 247, 247);
+    font-family:'Mali';
+    font-size: 19px;
+}
+
+div.info{
+	width:700px;
+    height:1px;
+	background-color: #fffbfa;
+	overflow: hidden;
+    -webkit-transition: height 0.2s;
+    
+}
+
+p.info{
+	margin:20px;
+	text-align: center;
+    color:#070707;
+    font-family:century;
+    font-size:15px;
+}
+
+div.subapartado:hover div.info{
+
+	height:120px;
+
+}
+.img_izquierda{
+    float: left;
+}
+.img_derecha{
+    float: right;
+}
+
+
+#video, video{
+    width: 100%;
+    height: 500px;
+}
+
+  .video2, video{
+    margin: 0 auto;
+	padding-top: 1px;
+	width: 400px;
+	height: 300px;
+    display: inline-block;
+  }
+  .texvideo{
+    font-family: 'Bad Script';
+      font-size: 30px;
+      color: #0fecda;
+  }
+  .bot{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(228, 166, 247);
+    background-color: rgb(28, 2, 46);
+    font-family: 'Raleway';
+    margin: 60px;
+    height: 20px;
+    padding: 10px 20px 10px 20px;
+
+}

@@ -1,0 +1,261 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 0;
+}
+body{
+    color: rgb(12, 16, 59);
+    font-family:'Mali';
+    font-size: 18px;   
+     text-align: center;
+}
+nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+nav li{
+    display: inline-block;
+    padding: 24px 10px;
+}
+nav li a{
+    color: rgb(43, 39, 66);
+    text-transform: uppercase;
+    font-size: 12;
+    font-weight: bold;
+    font-family: century;
+}
+li > a:hover{
+  color: #181616;
+  text-decoration: none;
+}
+
+section{ height: 100vh;}
+#screen1{
+background-image: url(../imagenes/pa.jpg);
+
+    background-size: cover;
+}
+#screen2{
+  background:rgb(54, 58, 57);
+  
+}
+  
+#screen3{
+  background:rgb(54, 58, 57);
+    width: 100%;
+    height: 200px;
+}
+#screen4{
+  background:rgb(54, 58, 57);  }
+.texto{
+    font-family: 'Kaushan Script';
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align:center;
+}
+.aa{
+    height: 30px;
+    padding: 60px;
+    font-family: 'Gabriela';
+    font-size: 50px;
+    color: rgb(206, 240, 15);
+    text-align:center;
+}
+.bb{
+    height: 90px;
+    padding: 20px;
+    font-family: 'Mali';
+    font-size: 25px;
+    color: rgb(179, 171, 174);
+    text-align: center;
+}
+.cc{
+    height: 30px;
+    padding: 20px;
+    font-family: 'Mali';
+    font-size: 25px;
+    color: rgb(179, 171, 174);
+    text-align: center;
+    text-align:center;
+}
+.dd
+{
+    height: 30px;
+    font-family: 'Mali';
+    font-size: 25px;
+    color: rgb(179, 171, 174);
+    text-align: center;
+    text-align: center;
+}
+/*#3*/
+
+
+div#body{
+	margin: auto;
+    width:700px;
+	min-height:50px;
+	background-color: rgb(209, 0, 0);
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+div.subapartado{
+	width:700px;
+	min-height:50px;
+	background-color: rgb(255, 255, 255);
+	-webkit-transiton: height 0.2s;
+}
+
+div.titulo{
+    width:700px;
+	height:50px;
+	background-color: #131212;
+	overflow: hidden;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+p.titulo{
+	margin:13px;
+	color: rgb(247, 247, 247);
+}
+
+div.info{
+	width:700px;
+    height:2px;
+    
+	background-color: #f8f2f1;
+	overflow: hidden;
+	-webkit-transition: height 0.2s;
+}
+
+p.info{
+	margin:20px;
+	text-align: center;
+	color:#070707;
+}
+
+div.subapartado:hover div.info{
+
+	height:270px;
+
+}
+/*boton*/
+.boton{
+  height:80px;
+  width:80px;
+  background-position:center;
+  margin: 5px;
+  padding:10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size:20px;
+  float:left;
+  background-repeat:no-repeat;
+  margin-left: 200px;
+  font-family: century;
+  
+  }
+  .boton2{
+    height:80px;
+    width:80px;
+    background-position:center;
+    margin: 5px;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size:20px;
+    float:left;
+    background-repeat:no-repeat;
+    margin-left: 200px;
+    font-family: century;
+  }
+  .boton3{
+   
+    height:80px;
+    width:80px;
+    background-position:center;
+    margin: 5px;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size:20px;
+    float:left;
+    background-repeat:no-repeat;
+    margin-left: 200px;
+    font-family: century;
+
+
+  }
+  .boton4{
+    height:80px;
+    width:80px;
+    background-position:center;
+    margin: 5px;
+    padding:10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size:20px;
+    float:left;
+    background-repeat:no-repeat;
+    margin-left: 200px;
+    font-family: century;
+
+  }
+  .boton:hover{
+    opacity: 0.60;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+  .boton a{
+    color:rgb(46, 26, 223);
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+  }
+  .boton2:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+  .boton2 a{
+    color:rgb(46, 26, 223);
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+  }
+  .boton3:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+  .boton3 a{
+    color:rgb(46, 26, 223);
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+  }
+  .boton4:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+  .boton4 a{
+    color:rgb(46, 26, 223);
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+  }

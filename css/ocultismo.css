@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    z-index: 0;
+}
+body{
+    color: white;
+    font-family: tahoma;
+    font-size: 18px;
+    text-align: center;
+}
+li > a:hover{
+    color: #181616;
+    text-decoration: none;
+  }
+  
+nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+nav li{
+    display: inline-block;
+    padding: 24px 10px;
+}
+nav li a{
+    color: rgb(156, 7, 69);
+    text-transform: uppercase;
+    font-size: 12;
+    font-weight: bold;
+    font-family: century;
+}
+
+
+.art1{
+    background-image: url(../imagenes/brujeria_0.jpg);
+    width: 100%;
+    height: 560px;
+    background-size: cover;
+}
+    .art2{
+        background:rgb(38, 41, 40);
+        width: 100%;
+        height: 2750px;
+    }
+    h2{
+        font-family: 'DM Serif Display';
+        font-size: 60px;
+        color: rgb(18, 150, 132);
+        padding: 90px 50px 20px 70px;
+    }
+    
+.texto{
+    font-family: 'Kaushan Script';
+    color: black;
+    font-size: 100px;
+    text-align:center;
+}
+
+.dentro{
+    font-size: 20px;
+    color: rgb(220, 220, 247);
+    font-family: 'Raleway';
+    text-align:justify;
+    padding: 10px 60px 10px 60px;
+
+}
+.sub{
+    font-family: 'DM Serif Display';
+    font-size: 40px;
+    color: rgb(38, 248, 203);
+    padding: 30px 50px 20px 70px;
+}
+.uno{
+    font-family: 'DM Serif Display';
+    font-size: 30px;
+    color: rgb(221, 79, 134);
+    padding: 30px 50px 20px 70px;
+}
+.dos
+{
+    font-size: 20px;
+    color: rgb(220, 220, 247);
+    font-family: 'Raleway';
+    text-align:justify;
+    padding: 10px 100px 10px 100px;
+}
+.bot{
+    font-size: 20px;
+    color: rgb(220, 220, 247);
+    background-color: rgb(127, 124, 129);
+    font-family: 'Raleway';
+    padding: 10px 20px 10px 20px;
+    margin: 40px;
+    float: right;  
+}
